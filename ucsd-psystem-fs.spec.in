@@ -29,6 +29,27 @@ p-System disk images
 #-----------------------------------------------------------------------------
 %files
 %defattr(-, root,root, -)
+%{_bindir}/ucsdpsys_disk
+%{_bindir}/ucsdpsys_fsck
+%{_bindir}/ucsdpsys_interleave
+%{_bindir}/ucsdpsys_logo
+%{_bindir}/ucsdpsys_mkfs
+%{_bindir}/ucsdpsys_mount
+%{_bindir}/ucsdpsys_rt11
+%{_bindir}/ucsdpsys_text
+%{_bindir}/ucsdpsys_umount
+%{_mandir}/man1/ucsdpsys_disk.1.gz
+%{_mandir}/man1/ucsdpsys_fs_license.1.gz
+%{_mandir}/man1/ucsdpsys_fsck.1.gz
+%{_mandir}/man1/ucsdpsys_interleave.1.gz
+%{_mandir}/man1/ucsdpsys_mkfs.1.gz
+%{_mandir}/man1/ucsdpsys_mount.1.gz
+%{_mandir}/man1/ucsdpsys_rt11.1.gz
+%{_mandir}/man1/ucsdpsys_text.1.gz
+%{_mandir}/man1/ucsdpsys_umount.1.gz
+%{_mandir}/man5/ucsdpsys_fs.5.gz
+%{_mandir}/man5/ucsdpsys_text.5.gz
+
 
 #=============================================================================
 %prep

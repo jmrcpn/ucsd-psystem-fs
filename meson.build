@@ -6,7 +6,7 @@ cpp = meson.get_compiler('cpp')
 sh = find_program('sh')
 
 libexplain_dep = dependency('libexplain')
-fuse_dep = dependency('fuse3')
+fuse_dep = dependency('fuse')
 boost_dep = dependency('boost')
 
 root_inc = include_directories('.')
