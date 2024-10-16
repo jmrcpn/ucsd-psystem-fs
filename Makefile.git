@@ -21,7 +21,6 @@ fclean	:  clean
 	   @ rm -fr srcrpm/*
 
 dovers	:
-	
 
 #--------------------------------------------------------------------
 RPMDIR	=	~/rpmbuild
